@@ -1,0 +1,14 @@
+# 1. Ignore absolutely everything in this folder and subfolders
+*
+
+# 2. BUT, do not ignore directories (so Git can look inside them)
+!*/
+
+# 3. AND do not ignore these specific file types
+!*.cpp
+!*.h
+!*.csv
+!*.html
+
+# 4. Don't ignore this .gitignore file itself
+!.gitignore
